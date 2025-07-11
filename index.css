@@ -766,14 +766,19 @@ footer img:hover{
         width: auto
     }
     #skills {
-        grid-template-columns: auto;
+        grid-template-columns: auto auto auto;
         animation: none;
     }
     #sh{
         animation: none;
     }
     .skill-item {
-        width: 70vw;
+        width: 25vw;
+        margin: auto;
+
+    }
+    .skill-item img{
+        width: 20vw;
         margin: auto;
 
     }
@@ -810,7 +815,7 @@ footer img:hover{
     }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
     #intro {
         height: 45vh;
     }
@@ -884,4 +889,4 @@ footer img:hover{
     #hobby {
         width: auto;
     }
-}
+} */
